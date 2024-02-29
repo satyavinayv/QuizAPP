@@ -1,0 +1,71 @@
+body{
+    margin : 0;
+    padding : 0;
+    background-color: rgb(42, 3, 169);
+}
+
+.main_box{
+    width:85%;
+    background:white ;
+    max-width: 500px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding:50px;
+}
+
+.main_box h1{
+    font-size:25px;
+    padding-bottom:20px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.question_ans{
+    padding:0;
+}
+.question_ans h2{
+    font-size:18px;
+    font-weight: 600;
+}
+.btn{
+    background: white;
+    color:#222;
+    font-weight: 500;
+    width:100%;
+    border:1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color:white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next{
+    background: white;
+    width: 25%;
+    float:right;
+    display: none;
+    cursor: pointer;
+    border:1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+#next:hover{
+    background-color: black;
+    color:white;
+}
+
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;;
+}
