@@ -15,6 +15,6 @@ Capabilities:
 * Next Question Functionality: Easily navigate questions using the 'Next' button for an intuitive user flow.
 
 Technologies Utilized
-HTML: to structure the content.
-CSS: to style and design an appealing interface.
-JavaScript: to implement dynamic functions and user interactions.
+* HTML: to structure the content.
+* CSS: to style and design an appealing interface.
+* JavaScript: to implement dynamic functions and user interactions.
